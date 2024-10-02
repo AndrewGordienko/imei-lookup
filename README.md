@@ -91,6 +91,9 @@ Below are examples of the generated graphs:
 
    This pie chart shows the market share of different client devices.
 
+___
+
+Just so you know, there are still some speed optimizations that can be done, that I plan to complete by early October 2nd, but as the code stands right now it is functional. The speed fixes would surround loading in previous data extracted from apis and google instead of doing another query. 
 ---
 
 ## License
