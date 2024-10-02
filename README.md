@@ -87,7 +87,7 @@ Below are examples of the generated graphs:
 
 2. **Market Share by Company:**
 
-   ![Market Share](https://github.com/user-attachments/assets/97403790-5ef6-4e16-872f-fe64c2127f8a)
+   <img width="946" alt="image" src="https://github.com/user-attachments/assets/308a982f-936b-4b2f-9781-d57a75233bf3">
 
    This pie chart shows the market share of different client devices.
 
