@@ -90,30 +90,6 @@ Below are examples of the generated graphs:
 
 ---
 
-## Code Overview
-
-The following is a simplified overview of the main parts of the code:
-
-- **IMEI Check:** Sends requests to the IMEI Check API, processes the results, and handles retries and failures.
-- **Device Count:** Tracks device model counts and stores the results in JSON files.
-- **Graphs:** Generates both bar and pie charts using `matplotlib`.
-
-The complete code is included in the repository under `imei_lookup.py`.
-
----
-
-## Contribution Guidelines
-
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
----
-
 ## License
 
 This project is licensed under the MIT License.
