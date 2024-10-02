@@ -8,11 +8,16 @@ from collections import defaultdict
 import numpy as np
 from bs4 import BeautifulSoup
 
+# Load the configuration file
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
+
+# Get the token and CSV file path from the configuration
+token = config['token']
+csv_file_path = config['csv_file_path']
+
 # Base URL for the IMEI check endpoint
 api_url = 'https://api.imeicheck.net/v1/checks'
-
-# Your sandbox API key
-token = 'PngJS8ZtVQWr0LtCBmU8dMWGqhuN0Q7amsSjqugJ9e579c1e'
 
 # Use one of the sandbox service IDs
 serviceId = 22  # Mock service with successful results
@@ -29,7 +34,6 @@ if not os.path.exists(json_folder):
     os.makedirs(json_folder)
 
 # Define file paths for storing results in the folder
-csv_file_path = 'sample_data.csv'  # Define the path to your input CSV file
 local_tac_db_path = os.path.join(json_folder, 'local_tac_db.json')
 output_file_path = os.path.join(json_folder, 'successful_lookups.json')
 failed_lookup_path = os.path.join(json_folder, 'failed_lookups.json')
@@ -257,7 +261,7 @@ def process_device_lookups():
             if phone_details and phone_details.get('status') == 'successful':
                 save_tac_to_local_db(tac, phone_details)
                 update_device_count(phone_details, imei)
-
+        
         print()
 
     save_device_count_summary()
