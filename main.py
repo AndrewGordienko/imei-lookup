@@ -19,8 +19,7 @@ csv_file_path = config['csv_file_path']
 # Base URL for the IMEI check endpoint
 api_url = 'https://api.imeicheck.net/v1/checks'
 
-# Use one of the sandbox service IDs
-serviceId = 22  # Mock service with successful results
+serviceId = 22 
 
 # Headers for authentication
 headers = {
