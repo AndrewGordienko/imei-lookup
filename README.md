@@ -81,7 +81,7 @@ Below are examples of the generated graphs:
 
 1. **Device Count by Model:**
 
-   ![Device Count](https://github.com/user-attachments/assets/3a70e1cd-2551-41d1-b248-26f6179789c3)
+   <img width="1187" alt="image" src="https://github.com/user-attachments/assets/8cfa9901-5120-4f5c-aff0-3d1bcacd84ab">
 
    This graph shows the number of devices associated with each model.
 
