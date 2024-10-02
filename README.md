@@ -1,4 +1,6 @@
-<img src="https://github.com/user-attachments/assets/9b0b57cd-f25c-4ef1-8f81-057fb5ba12e5" alt="image" width="300" height="300" style="border-radius: 50">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9b0b57cd-f25c-4ef1-8f81-057fb5ba12e5" alt="image" width="300" height="300" style="border-radius: 75%;">
+</div>
 
 # IMEI Lookup
 
