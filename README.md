@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3af0be9c-1f18-440a-8e75-8230ff43bae2)
+<img src="https://github.com/user-attachments/assets/3af0be9c-1f18-440a-8e75-8230ff43bae2" alt="image" width="300"/>
 
 # IMEI Lookup Library
 
