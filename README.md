@@ -2,6 +2,7 @@
   <img src="https://github.com/user-attachments/assets/9b0b57cd-f25c-4ef1-8f81-057fb5ba12e5" alt="image" width="300" height="300" style="border-radius: 300%;">
 </div>
 
+IF YOURE READING THIS IM IN THE PROCESS OF POLISHING THIS CODE UP TO BE A LIBRARY (OCT 7) CHECK BACK ON THIS FILE IN 24H :)
 # IMEI Lookup
 
 This project processes a list of IMEI numbers from a CSV file, performs device lookups using an API, and generates statistics about the devices. Results are visualized in two graphs: one showing the number of devices per model, and another displaying market share by company. The project supports device name lookups via an API, with a Google search fallback, and tracks both successful and failed IMEI lookups.
