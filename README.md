@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/3af0be9c-1f18-440a-8e75-8230ff43bae2)
 
 # IMEI Lookup Library
 
@@ -27,55 +28,9 @@ Ensure the following dependencies are installed:
 - `matplotlib`
 - `beautifulsoup4`
 
-To build and install locally:
-
-```bash
-python3 -m build
-python3 -m pip install dist/*.whl
-```
-
 ## Usage
 
-### Basic Lookup
-
-You can use the library to look up phone models from a list of IMEI numbers. The `lookup()` function checks for cached results, uses Google search, and falls back to API calls if necessary.
-
-```python
-from imei_lookup import IMEILookup
-
-# Initialize the IMEI Lookup object
-lookup = IMEILookup(api_key='your_api_key')
-
-# Lookup a single IMEI
-result = lookup.lookup('123456789012345;imsi;msisdn')
-
-# Process a file of IMEI, IMSI, MSISDN combinations
-lookup.process_file('imei_file.csv')
-```
-
-### Generate Graphs
-
-After processing IMEI numbers, you can generate a bar chart of phone model counts and a pie chart for company market share.
-
-```python
-lookup.generate_graphs()
-```
-
-### Print Results
-
-To print a summary of successful and failed lookups:
-
-```python
-lookup.print_results()
-```
-
-### Cache Management
-
-Results from lookups are cached in JSON files for faster subsequent lookups. You can clear the target file by calling:
-
-```python
-lookup.clear_target_file()
-```
+The documentation is in docs.ipynb.
 
 ## File Format
 
